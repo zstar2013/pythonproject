@@ -9,8 +9,6 @@ import traceback
 from UI.Mydialog import MyWindow
 from PyQt5.QtWidgets import QFileDialog,QMessageBox
 from tools.conftool import updateItem ,loadOption
-from tools.dialogTools import showPathDialog
-import configparser
 
 def initTabOil(self:MyWindow):
     # for i in range(0, len(gConst["oil"]["month"])):
